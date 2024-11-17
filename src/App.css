@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8e0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+table tr:hover {
+  /* background-color: black; */
+  /* color: white; */
+  transition: all;
+  transition-duration: 550ms;
+}
+
+td,
+th {
+  padding: 4px;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
